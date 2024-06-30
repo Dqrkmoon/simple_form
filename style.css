@@ -1,0 +1,76 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.main{
+  height: 755px;
+  width: 100%;
+  background: rgb(0, 0, 0, 0.9);
+  position: relative;
+}
+.cir1{
+  height: 250px;
+  width: 250px;
+  border-radius: 200px;
+  background: rgb(85, 21, 65, 1);
+  transform: translate(308px, 148px);
+  position: absolute;
+  box-shadow: 0px 0px 10px 7px rgb(102, 28, 87, 1);
+}
+.cir2{
+  height: 150px;
+  width: 150px;
+  border-radius: 120px;
+  background: rgb(89, 40, 61, 1.0);
+  transform: translate(841px, 423px);
+  position: absolute;
+  box-shadow: 0px 0px 10px 7px rgb(112, 40, 61, 1) ;
+}
+.form{
+  height: 520px;
+  width: 500px;
+  position: absolute;
+  left: 420px;
+  top: 70px;
+  background: rgba(11, 17, 12, 0.7);
+  box-shadow: 0px 0px 35px 14px rgb(9 14 4);
+  font-size: 17px;
+  color: dimgrey;
+  font-weight: bold;
+  text-shadow: 0px 0px 1px dimgrey;
+  border-radius: 30px;
+  font-family: serif;
+}
+#info{
+  color: white;
+  font-size: 23px;
+  padding: 3px;
+  margin-left: 171px;
+  margin-top: 5px;
+  font-family: serif;
+  text-shadow: 0px 0px 10px antiquewhite;
+}
+#submit{
+  height: 35px;
+  width: 94px;
+  position: absolute;
+  margin-left: 60px;
+}
+#reset{
+  height: 34px;
+  width: 91px;
+  position: absolute;
+  margin-left: 347px;
+}
+#submit:hover{
+  color: white;
+  background: rgb(205, 150, 220, 0.5);
+  transition: 1s;
+  box-shadow: 0px 0px 3px 2px lightcyan;
+}
+#reset:hover{
+  color: white;
+  background: rgb(15, 25, 35, 0.7);
+  transition: 1s;
+  box-shadow: 0px 0px 3px 2px ghostwhite;
+}
